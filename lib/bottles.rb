@@ -14,8 +14,6 @@ class Bottles
   private
 
   def verse(count)
-    lyrics = ""
-
     <<~SONG
       #{count} #{bottles(count)} of beer on the wall
       #{count} #{bottles(count)} of beer
